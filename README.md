@@ -48,9 +48,9 @@ $ git commit -m "this is Subject
 
 | Message Part | Description                                                  |
 | ------------ | ------------------------------------------------------------ |
-| Subject      | 영어 최대 50글자. 마침표 및 특수기호 사용 X 첫글자는 대문자로 작성 현재 시제 사용 [ Changing, Changed (x) -> Change (o) ] 부연 설명 필요시 Body 활용 |
-| Body         | 한 줄당 72자 내 작성. 필요시 개행 '무엇을', '어떻게', '왜' 변경했는지 작성 필수 가능한 상세히 작성 |
-| Footer       | Footer은 optional 참고할 이슈번호 기재 Ref: #이슈번호 ex) Ref: #34, #23 |
+| Subject      | 영어/한글 최대 50글자. 마침표 및 특수기호 사용 X 첫글자는 대문자로 작성 현재 시제 사용 [ Changing, Changed (x) -> Change (o) ] 부연 설명 필요시 Body 활용 |
+| Body         | 한 줄당 72자 내 작성. 필요시 개행 '무엇을', '어떻게', '왜' 변경했는지 작성 필수 가능한 상세히 작성(optional) |
+| Footer       | Footer은 optional 참고할 이슈번호 기재 Ref: #이슈번호 ex) Ref: #34, #23 (optional)|
 
 <br />
 
@@ -85,7 +85,3 @@ Merge시, squash-merge로 진행
 
 # 테스트
 - WIP
-```shell
-docker-compose up -d
-```
-위 명령어 실행후 테스트코드 실행
