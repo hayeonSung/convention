@@ -85,7 +85,3 @@ Merge시, squash-merge로 진행
 
 # 테스트
 - WIP
-```shell
-docker-compose up -d
-```
-위 명령어 실행후 테스트코드 실행
